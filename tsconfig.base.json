@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@wp-chunk/web-module/feature-home": ["libs/web-module/feature-home/src/index.ts"],
+      "@wp-chunk/web-module/feature-login": ["libs/web-module/feature-login/src/index.ts"],
       "@wp-chunk/web-module/layout": ["libs/web-module/layout/src/index.ts"]
     }
   },

@@ -4,6 +4,7 @@
   "projects": {
     "web-module": "apps/web-module",
     "web-module-feature-home": "libs/web-module/feature-home",
+    "web-module-feature-login": "libs/web-module/feature-login",
     "web-module-layout": "libs/web-module/layout"
   }
 }
