@@ -1,9 +1,12 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'wp-chunk-root',
-  template: ` <wp-chunk-nx-welcome></wp-chunk-nx-welcome> `,
+  template: `
+    App Component Works!
+  `,
   styles: [],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
   title = 'web-module';
