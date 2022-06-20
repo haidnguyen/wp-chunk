@@ -17,6 +17,10 @@ import { RouterModule } from '@angular/router';
         path: 'login',
         loadChildren: () => import('@wp-chunk/web-module/feature-login').then(m => m.WebModuleFeatureLoginModule),
       },
+      {
+        path: 'register',
+        loadChildren: () => import('@wp-chunk/web-module/feature-register').then(m => m.WebModuleFeatureRegisterModule),
+      },
     ]),
   ],
 })
