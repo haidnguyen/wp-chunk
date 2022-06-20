@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@wp-chunk/shared/ui-button": ["libs/shared/ui-button/src/index.ts"],
+      "@wp-chunk/shared/ui-input": ["libs/shared/ui-input/src/index.ts"],
+      "@wp-chunk/shared/ui-slider": ["libs/shared/ui-slider/src/index.ts"],
       "@wp-chunk/web-module/feature-home": ["libs/web-module/feature-home/src/index.ts"],
       "@wp-chunk/web-module/feature-login": ["libs/web-module/feature-login/src/index.ts"],
       "@wp-chunk/web-module/feature-register": ["libs/web-module/feature-register/src/index.ts"],

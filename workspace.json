@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "shared-ui-button": "libs/shared/ui-button",
+    "shared-ui-input": "libs/shared/ui-input",
+    "shared-ui-slider": "libs/shared/ui-slider",
     "web-module": "apps/web-module",
     "web-module-feature-home": "libs/web-module/feature-home",
     "web-module-feature-login": "libs/web-module/feature-login",
