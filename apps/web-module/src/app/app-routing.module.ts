@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       {
         path: '',
-        loadChildren: () => import('@wp-chunk/web-module/feature-home').then(m => m.WebModuleFeatureHomeModule),
+        loadChildren: () => import('@wp-chunk/web-module/layout').then(m => m.WebModuleLayoutModule),
       },
     ]),
   ],

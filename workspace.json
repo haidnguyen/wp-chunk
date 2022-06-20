@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "web-module": "apps/web-module",
-    "web-module-feature-home": "libs/web-module/feature-home"
+    "web-module-feature-home": "libs/web-module/feature-home",
+    "web-module-layout": "libs/web-module/layout"
   }
 }
