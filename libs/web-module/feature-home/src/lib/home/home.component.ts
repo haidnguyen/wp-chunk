@@ -1,13 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'wp-chunk-root',
+  selector: 'wp-chunk-home',
   template: `
-    <router-outlet></router-outlet>
+    <p>home works!</p>
   `,
   styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent {
-  title = 'web-module';
-}
+export class HomeComponent {}
