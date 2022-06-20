@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@wp-chunk/shared/shared": ["libs/shared/shared/src/index.ts"],
       "@wp-chunk/shared/ui-button": ["libs/shared/ui-button/src/index.ts"],
       "@wp-chunk/shared/ui-input": ["libs/shared/ui-input/src/index.ts"],
       "@wp-chunk/shared/ui-slider": ["libs/shared/ui-slider/src/index.ts"],
