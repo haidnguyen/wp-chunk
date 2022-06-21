@@ -22,7 +22,8 @@
       "@wp-chunk/web-module/feature-home": ["libs/web-module/feature-home/src/index.ts"],
       "@wp-chunk/web-module/feature-login": ["libs/web-module/feature-login/src/index.ts"],
       "@wp-chunk/web-module/feature-register": ["libs/web-module/feature-register/src/index.ts"],
-      "@wp-chunk/web-module/layout": ["libs/web-module/layout/src/index.ts"]
+      "@wp-chunk/web-module/layout": ["libs/web-module/layout/src/index.ts"],
+      "@wp-chunk/web-standalone/layout": ["libs/web-standalone/layout/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

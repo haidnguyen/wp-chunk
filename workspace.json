@@ -11,6 +11,7 @@
     "web-module-feature-login": "libs/web-module/feature-login",
     "web-module-feature-register": "libs/web-module/feature-register",
     "web-module-layout": "libs/web-module/layout",
-    "web-standalone": "apps/web-standalone"
+    "web-standalone": "apps/web-standalone",
+    "web-standalone-layout": "libs/web-standalone/layout"
   }
 }
