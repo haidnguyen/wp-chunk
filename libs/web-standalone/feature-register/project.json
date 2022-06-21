@@ -1,0 +1,41 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/web-standalone/feature-register/src",
+  "prefix": "wp-chunk",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/web-standalone/feature-register"],
+      "options": {
+        "project": "libs/web-standalone/feature-register/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/web-standalone/feature-register/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/web-standalone/feature-register/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web-standalone/feature-register"],
+      "options": {
+        "jestConfig": "libs/web-standalone/feature-register/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web-standalone/feature-register/**/*.ts",
+          "libs/web-standalone/feature-register/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
