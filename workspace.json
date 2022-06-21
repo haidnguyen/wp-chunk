@@ -15,6 +15,7 @@
     "web-standalone-feature-home": "libs/web-standalone/feature-home",
     "web-standalone-feature-login": "libs/web-standalone/feature-login",
     "web-standalone-feature-register": "libs/web-standalone/feature-register",
+    "web-standalone-feature-setting": "libs/web-standalone/feature-setting",
     "web-standalone-layout": "libs/web-standalone/layout"
   }
 }

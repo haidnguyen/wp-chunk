@@ -11,4 +11,8 @@ export const routes: Routes = [
     path: 'login',
     loadComponent: () => import('@wp-chunk/web-standalone/feature-login').then(m => m.LoginComponent),
   },
+  {
+    path: 'setting',
+    loadComponent: () => import('@wp-chunk/web-standalone/feature-setting').then(m => m.SettingComponent),
+  },
 ];
